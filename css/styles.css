@@ -93,6 +93,7 @@ body {
     display: flex;
     /* margin-left: 40px; */
     gap:40px;
+    padding: 24px 0;
 }
 .header-list .header-item:first-child {
     margin:20px;
@@ -124,6 +125,8 @@ body {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
+        padding:24px 0;
+       
     
 }
 .section {
@@ -341,12 +344,13 @@ background-color: #FFFFFF;
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
-    display: inline-block;
-     margin-bottom: 16px;
+    
    
 }
 .footer-container {
     padding: 100px o;
+    display: inline-block;
+        margin-bottom: 16px;
        
 
 }
