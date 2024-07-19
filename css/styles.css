@@ -170,9 +170,9 @@ color:#434455;
    
     
 }
-.team-card-content {
+/* .team-card-content {
     display: flex;
-}
+} */
 
 .features {
 background-color: #FFFFFF;
@@ -211,10 +211,10 @@ background-color: #FFFFFF;
 }
 .team-list {
     background-color: #FFFFFF;
-    justify-content: space-between;
+    /* justify-content: space-between;
     display: flex;
     
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .team-card {
@@ -238,13 +238,13 @@ background-color: #FFFFFF;
         color:#434455;
 }
 .services-container  {
-    display: flex;
+    display: block;
 }
-.services {
+/* .services {
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px #E7E9FC;
-}
+} */
 
 .forth-section-title {
     font-size: 36px;
@@ -258,6 +258,13 @@ background-color: #FFFFFF;
 
 .footer {
     background-color: #2E2F42;
+   
+}
+.footer-container {
+    padding: 100px o;
+        display: inline-block;
+        margin-bottom: 16px;
+
 }
 .footer-logo {
     font-family: "Raleway",sans-serif;
