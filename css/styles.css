@@ -188,14 +188,14 @@ color:#434455;
     background-color:#404BBF;
 }
 
-.about-us {
+/* .about-us {
     line-height: 1.2;
     color:#2E2F42;
     display:none;
 
-}
+} */
 .visually-hidden {
-    display:none;
+    visibility:hidden;
 }
 .features-list {
     display: flex;
