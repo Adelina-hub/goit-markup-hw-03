@@ -209,7 +209,7 @@ color:#434455;
 .about-us {
     line-height: 1.2;
     color:#2E2F42;
-    visibility: hidden;
+    display:none;
     
 
 }
@@ -248,6 +248,8 @@ background-color: #FFFFFF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
+
        
 }
 .features-text {
@@ -365,6 +367,7 @@ background-color: #FFFFFF;
 }
 .footer-logo-text {
     color:#f4f4fd;
+    margin-bottom: 16px;
 }
 .footer-logo:hover {
     color:blue;
