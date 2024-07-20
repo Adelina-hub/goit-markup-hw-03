@@ -25,6 +25,13 @@ a {
 img {
     display: block;
 }
+html {
+    box-sizing: border-box;}
+
+    *,
+    *::after,
+    *::before {
+        box-sizing: inherit;}
 
 
 /* style reset === */
@@ -188,15 +195,15 @@ color:#434455;
     background-color:#404BBF;
 }
 
-/* .about-us {
+.about-us {
     line-height: 1.2;
     color:#2E2F42;
     display:none;
 
-} */
-.visually-hidden {
+} 
+/* .visually-hidden {
     visibility:hidden;
-}
+} */
 .features-list {
     display: flex;
     gap:24px;
