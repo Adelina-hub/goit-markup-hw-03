@@ -22,9 +22,7 @@ a {
     text-decoration: none;
     font-style: normal;
 }
-img {
-    display: block;
-}
+
 html {
     box-sizing: border-box;}
 
@@ -32,6 +30,22 @@ html {
     *::after,
     *::before {
         box-sizing: inherit;}
+                img {
+                    display: block;
+                    max-width: 100%;
+                    height: auto;}
+        
+                    address {
+                        font-style: normal;}
+        
+                        .link {
+                            text-decoration: none;
+                            color: inherit;}
+        
+                            .list {
+                                list-style: none;
+                                padding: 0;
+                                margin: 0;}
 
 
 /* style reset === */
@@ -195,15 +209,16 @@ color:#434455;
     background-color:#404BBF;
 }
 
-.about-us {
+/* .about-us {
     line-height: 1.2;
     color:#2E2F42;
     display:none;
 
-} 
-/* .visually-hidden {
+}  */
+ .visually-hidden {
     visibility:hidden;
-} */
+    
+} 
 .features-list {
     display: flex;
     gap:24px;
