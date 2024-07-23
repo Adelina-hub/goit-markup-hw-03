@@ -89,13 +89,12 @@ body {
 .header-item {
     display: flex;
     gap:40px;
-    padding: 24px 0;
+   
 }
 .header-list  {
     display: flex;
     /* margin-left: 40px; */
     gap:40px;
-    padding: 24px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -113,6 +112,7 @@ body {
 .contact-info {
     display: flex;
     gap:40px;
+    padding-top: 20px;
 }
 
 .header-link:hover {
@@ -129,7 +129,7 @@ body {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
-        padding:24px 0;
+        padding: 0;
        
     
 }
@@ -178,7 +178,8 @@ color:#434455;
         letter-spacing: 0.02em;
         text-align: center;
         color:#FFFFFF;
-        max-width: 496px;
+        max-width: 570px;
+        padding-bottom: 30px;
         
         
 }
@@ -200,7 +201,8 @@ color:#434455;
     gap:10px;
     min-width:169px ;
     height: 56px;
-    border:none
+    border:none;
+    
 }
 
 .first-button:hover {
